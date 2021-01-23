@@ -1,18 +1,11 @@
 import math
-import numpy as np
+#import numpy as np
 
 def demo(x):
-    '''
-    This is a demo function
-    Where in you just return square of the number
-    args:
-        x (int)
-    returns:
-        x*x (int)
-    '''
-
-    ## Code Here
-    return None
+     return x*x
+n=input("enter number to be squared")
+n=int(n)
+print(f"the square of given number is : {demo(n)}")
 
 def is_palindrome(string):
     '''
